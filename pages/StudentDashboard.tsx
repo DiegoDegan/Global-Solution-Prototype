@@ -6,6 +6,7 @@ import PageBackground from '../components/PageBackground';
 import { mockCourses, mockMissions, mockCertificates } from '../constants/mockData';
 import { BookOpenIcon, StarIcon, CoinIcon, CertificateIcon, SparklesIcon, UserGroupIcon } from '../components/icons';
 import { Link } from 'react-router-dom';
+import avatarStudent from '../assets/avatar-student.jpg';
 
 const CourseCard: React.FC<{ course: typeof mockCourses[0] }> = ({ course }) => (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-1 transition-transform duration-300">
@@ -98,7 +99,7 @@ const StudentDashboard: React.FC = () => {
                     {/* Left Sidebar */}
                     <aside className="lg:w-1/4 space-y-6">
                         <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                            <img src="https://picsum.photos/seed/student/100/100" alt="Avatar" className="w-24 h-24 rounded-full mx-auto border-4 border-primary-light" />
+                            <img src={avatarStudent} alt="Avatar" className="w-24 h-24 rounded-full mx-auto border-4 border-primary-light" />
                             <h2 className="mt-4 text-xl font-bold text-slate-800">Enzo Gael</h2>
                             <p className="text-sm text-slate-500">Nível 5: Aprendiz Voraz</p>
                             <div className="mt-4 text-left">

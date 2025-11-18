@@ -1,22 +1,34 @@
 import { Course, Reward, ForumTopic, Mission, Certificate } from '../types';
+import reactCourse from '../assets/courses/react.jpg';
+import designCourse from '../assets/courses/design.jpg';
+import marketingCourse from '../assets/courses/marketing.jpg';
+import scrumCourse from '../assets/courses/scrum.jpg';
+import iaCourse from '../assets/courses/ia.jpg';
+import idiomasCourse from '../assets/courses/idiomas.jpg';
+import cinemaReward from '../assets/rewards/cinema.jpg';
+import ifoodReward from '../assets/rewards/ifood.jpg';
+import fotoReward from '../assets/rewards/fotografia.jpg';
+import spotifyReward from '../assets/rewards/spotify.jpg';
+import graduacaoReward from '../assets/rewards/graduacao.jpg';
+import livrosReward from '../assets/rewards/livros.jpg';
 
 export const mockCourses: Course[] = [
   // Fix: Added 'category' property to each course object.
-  { id: 1, title: 'Introdução ao React com TypeScript', creator: 'Ana Silva', thumbnail: 'https://picsum.photos/seed/react/400/225', progress: 75, category: 'Desenvolvimento' },
-  { id: 2, title: 'Design de UI/UX para Iniciantes', creator: 'Carlos Pereira', thumbnail: 'https://picsum.photos/seed/uiux/400/225', progress: 40, category: 'Design' },
-  { id: 3, title: 'Fundamentos de Marketing Digital', creator: 'Beatriz Costa', thumbnail: 'https://picsum.photos/seed/marketing/400/225', progress: 100, category: 'Marketing' },
-  { id: 4, title: 'Gestão de Projetos Ágeis com Scrum', creator: 'Daniel Martins', thumbnail: 'https://picsum.photos/seed/scrum/400/225', progress: 15, category: 'Negócios' },
-  { id: 5, title: 'Inteligência Artificial na Prática', creator: 'Sofia Ferreira', thumbnail: 'https://picsum.photos/seed/ai/400/225', progress: 0, category: 'Tecnologia' },
-  { id: 6, title: 'Inglês para Negócios', creator: 'Robert Johnson', thumbnail: 'https://picsum.photos/seed/english/400/225', progress: 90, category: 'Idiomas' },
+  { id: 1, title: 'Introdução ao React com TypeScript', creator: 'Ana Silva', thumbnail: reactCourse, progress: 75, category: 'Desenvolvimento' },
+  { id: 2, title: 'Design de UI/UX para Iniciantes', creator: 'Carlos Pereira', thumbnail: designCourse, progress: 40, category: 'Design' },
+  { id: 3, title: 'Fundamentos de Marketing Digital', creator: 'Beatriz Costa', thumbnail: marketingCourse, progress: 100, category: 'Marketing' },
+  { id: 4, title: 'Gestão de Projetos Ágeis com Scrum', creator: 'Daniel Martins', thumbnail: scrumCourse, progress: 15, category: 'Negócios' },
+  { id: 5, title: 'Inteligência Artificial na Prática', creator: 'Sofia Ferreira', thumbnail: iaCourse, progress: 0, category: 'Tecnologia' },
+  { id: 6, title: 'Inglês para Negócios', creator: 'Robert Johnson', thumbnail: idiomasCourse, progress: 90, category: 'Idiomas' },
 ];
 
 export const mockRewards: Reward[] = [
-  { id: 1, title: 'Ingresso de Cinema', description: 'Válido para qualquer filme em cartaz', cost: 1500, image: 'https://picsum.photos/seed/cinema/300/200' },
-  { id: 2, title: 'Voucher iFood R$20', description: 'Desconto em seu próximo pedido', cost: 2000, image: 'https://picsum.photos/seed/ifood/300/200' },
-  { id: 3, title: 'Curso Extra: Fotografia Básica', description: 'Acesso a um curso exclusivo', cost: 5000, image: 'https://picsum.photos/seed/photo/300/200' },
-  { id: 4, title: 'Assinatura Spotify 1 Mês', description: 'Música sem limites e sem anúncios', cost: 2500, image: 'https://picsum.photos/seed/spotify/300/200' },
-  { id: 5, title: 'Desconto 30% na Graduação Parceira', description: 'Invista no seu futuro acadêmico', cost: 10000, image: 'https://picsum.photos/seed/grad/300/200' },
-  { id: 6, title: 'Vale-Compras Livraria Cultura', description: 'R$50 para gastar em livros', cost: 4500, image: 'https://picsum.photos/seed/books/300/200' },
+  { id: 1, title: 'Ingresso de Cinema', description: 'Válido para qualquer filme em cartaz', cost: 1500, image: cinemaReward },
+  { id: 2, title: 'Voucher iFood R$20', description: 'Desconto em seu próximo pedido', cost: 2000, image: ifoodReward },
+  { id: 3, title: 'Curso Extra: Fotografia Básica', description: 'Acesso a um curso exclusivo', cost: 5000, image: fotoReward },
+  { id: 4, title: 'Assinatura Spotify 1 Mês', description: 'Música sem limites e sem anúncios', cost: 2500, image: spotifyReward },
+  { id: 5, title: 'Desconto 30% na Graduação Parceira', description: 'Invista no seu futuro acadêmico', cost: 10000, image: graduacaoReward },
+  { id: 6, title: 'Vale-Compras Livraria Cultura', description: 'R$50 para gastar em livros', cost: 4500, image: livrosReward },
 ];
 
 export const mockForumTopics: ForumTopic[] = [
