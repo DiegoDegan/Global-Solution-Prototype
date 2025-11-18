@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import PageBackground from '../../components/PageBackground';
-import { mockCourses, mockMissions, mockCertificates } from '../../constants/mockData';
-import { BookOpenIcon, StarIcon, CoinIcon, CertificateIcon, SparklesIcon, UserGroupIcon } from '../../components/icons';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import PageBackground from '../components/PageBackground';
+import { mockCourses, mockMissions, mockCertificates } from '../constants/mockData';
+import { BookOpenIcon, StarIcon, CoinIcon, CertificateIcon, SparklesIcon, UserGroupIcon } from '../components/icons';
 import { Link } from 'react-router-dom';
 
 const CourseCard: React.FC<{ course: typeof mockCourses[0] }> = ({ course }) => (

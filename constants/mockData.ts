@@ -1,4 +1,4 @@
-import { Course, Reward, ForumTopic, Mission, Certificate } from '../src/types';
+import { Course, Reward, ForumTopic, Mission, Certificate } from '../types';
 
 export const mockCourses: Course[] = [
   // Fix: Added 'category' property to each course object.

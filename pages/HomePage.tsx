@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import { BookOpenIcon, ChartBarIcon, SparklesIcon, UserGroupIcon, LightBulbIcon } from '../../components/icons';
-import { UserRoleContext } from '../contexts/UserRoleContext';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import { BookOpenIcon, ChartBarIcon, SparklesIcon, UserGroupIcon, LightBulbIcon } from '../components/icons';
+import { UserRoleContext } from '../UserRoleContext';
 import { UserRole } from '../types';
-import PageBackground from '../../components/PageBackground';
+import PageBackground from '../components/PageBackground';
 
 const HomePage: React.FC = () => {
     const { setUserRole } = useContext(UserRoleContext);

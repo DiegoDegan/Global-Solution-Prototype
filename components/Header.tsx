@@ -1,8 +1,8 @@
 
 import React, { useContext, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { UserRoleContext } from '../src/contexts/UserRoleContext';
-import { UserRole } from '../src/types';
+import { UserRoleContext } from '../UserRoleContext';
+import { UserRole } from '../types';
 import Logo from './Logo';
 
 const Header: React.FC = () => {

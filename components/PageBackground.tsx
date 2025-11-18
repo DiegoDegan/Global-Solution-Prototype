@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
-import backgroundImage from '../src/assets/background.png';
-import logoFullImage from '../src/assets/logofull.png';
+import backgroundImage from '../assets/background.png';
+import logoFullImage from '../assets/logofull.png';
 
 interface Props {
   children: ReactNode;

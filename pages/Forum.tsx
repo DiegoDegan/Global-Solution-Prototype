@@ -1,9 +1,9 @@
 
 import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import PageBackground from '../../components/PageBackground';
-import { mockForumTopics } from '../../constants/mockData';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import PageBackground from '../components/PageBackground';
+import { mockForumTopics } from '../constants/mockData';
 import { ForumTopic } from '../types';
 
 const categoryColors: { [key: string]: string } = {

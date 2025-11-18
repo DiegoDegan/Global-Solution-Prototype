@@ -1,9 +1,9 @@
 
 import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import PageBackground from '../../components/PageBackground';
-import { BookOpenIcon, SparklesIcon, UserGroupIcon } from '../../components/icons';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import PageBackground from '../components/PageBackground';
+import { BookOpenIcon, SparklesIcon, UserGroupIcon } from '../components/icons';
 import { Link } from 'react-router-dom';
 
 const StatCard: React.FC<{ title: string; value: string; icon: React.ReactNode }> = ({ title, value, icon }) => (
