@@ -6,7 +6,7 @@ import PageBackground from '../components/PageBackground';
 import { mockCourses, mockMissions, mockCertificates } from '../constants/mockData';
 import { BookOpenIcon, StarIcon, CoinIcon, CertificateIcon, SparklesIcon, UserGroupIcon } from '../components/icons';
 import { Link } from 'react-router-dom';
-import avatarStudent from '../assets/avatar-student.jpg';
+import avatarStudent from '../assets/avatar-student.png';
 
 const CourseCard: React.FC<{ course: typeof mockCourses[0] }> = ({ course }) => (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-1 transition-transform duration-300">

@@ -1,16 +1,16 @@
 import { Course, Reward, ForumTopic, Mission, Certificate } from '../types';
-import reactCourse from '../assets/courses/react.jpg';
-import designCourse from '../assets/courses/design.jpg';
-import marketingCourse from '../assets/courses/marketing.jpg';
-import scrumCourse from '../assets/courses/scrum.jpg';
-import iaCourse from '../assets/courses/ia.jpg';
-import idiomasCourse from '../assets/courses/idiomas.jpg';
-import cinemaReward from '../assets/rewards/cinema.jpg';
-import ifoodReward from '../assets/rewards/ifood.jpg';
-import fotoReward from '../assets/rewards/fotografia.jpg';
-import spotifyReward from '../assets/rewards/spotify.jpg';
-import graduacaoReward from '../assets/rewards/graduacao.jpg';
-import livrosReward from '../assets/rewards/livros.jpg';
+import reactCourse from '../assets/courses/react.png';
+import designCourse from '../assets/courses/design.png';
+import marketingCourse from '../assets/courses/marketing.png';
+import scrumCourse from '../assets/courses/scrum.png';
+import iaCourse from '../assets/courses/ia.png';
+import idiomasCourse from '../assets/courses/idiomas.png';
+import cinemaReward from '../assets/rewards/cinema.png';
+import ifoodReward from '../assets/rewards/ifood.png';
+import fotoReward from '../assets/rewards/fotografia.png';
+import spotifyReward from '../assets/rewards/spotify.png';
+import graduacaoReward from '../assets/rewards/graduacao.png';
+import livrosReward from '../assets/rewards/livros.png';
 
 export const mockCourses: Course[] = [
   // Fix: Added 'category' property to each course object.
