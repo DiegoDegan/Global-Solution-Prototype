@@ -53,6 +53,7 @@ const Header: React.FC = () => {
                         ))}
                          {/* Links para avaliação */}
                         <div className="border-l border-gray-300 h-6 mx-2"></div>
+                        <button onClick={() => handleLogin('student')} className="text-sm text-gray-600 hover:text-primary transition-colors duration-200 font-medium">Área do Aluno</button>
                         <button onClick={() => handleLogin('creator')} className="text-sm text-gray-600 hover:text-primary transition-colors duration-200 font-medium">Área do Criador</button>
                         <button onClick={() => handleLogin('recruiter')} className="text-sm text-gray-600 hover:text-primary transition-colors duration-200 font-medium">Área do Recrutador</button>
                     </nav>
@@ -100,6 +101,7 @@ const Header: React.FC = () => {
                             <NavLink key={link.path} to={link.path} className={({ isActive }) => `block px-3 py-2 rounded-md text-base font-medium ${isActive ? 'bg-primary text-white' : 'text-gray-600 hover:bg-gray-50'}`}>{link.label}</NavLink>
                         ))}
                         <div className="border-t border-gray-200 my-2"></div>
+                        <button onClick={() => { handleLogin('student'); setIsMenuOpen(false); }} className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-50">Área do Aluno</button>
                         <button onClick={() => { handleLogin('creator'); setIsMenuOpen(false); }} className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-50">Área do Criador</button>
                         <button onClick={() => { handleLogin('recruiter'); setIsMenuOpen(false); }} className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:bg-gray-50">Área do Recrutador</button>
                     </div>
