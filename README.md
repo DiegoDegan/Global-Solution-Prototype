@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# (re)Qualifica+
 
-# Run and deploy your AI Studio app
+***(re)Qualifica+***  é um protótipo desenvolvido como projeto acadêmico na FIAP, cujo tema central foi  **“O Futuro do Trabalho”**. Criamos uma plataforma experimental para oferecer proteção ao profissional diante das rápidas mudanças do mercado de trabalho, facilitando processos de  **reskilling**  e  **upskilling**, além de prover insights dinâmicos sobre carreiras em alta e em baixa.
 
-This contains everything you need to run your app locally.
+> Desenvolvido em  **7 dias**  por  
+> **Diego Degan**, Bruno Moscoso, Thainara Farias e Ingris Silva. Grupo no primeiro semestre de Técnologo em Data Science
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Y7r_lA_eVOtBwWfN1Ie2P0lYb1miHKI_
+**Funcionalidades principais**:
 
-## Run Locally
+-   Trilhas de capacitação gratuitas e personalizadas    
+-   Indicadores de empregabilidade via IA    
+-   Recompensas e gamificação    
+-   Insights sobre tendências, profissões emergentes e obsoletas
+    
 
-**Prerequisites:**  Node.js
+**Status:**  Protótipo visual (sem backend real), realizado durante o Global Solution 2025 - 2° Semestre FIAP.
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+> A plataforma está disponível, hospedada via Google Cloud Run:  
+> [Clique aqui para acessar](https://global-solution-prototype-966808864434.northamerica-south1.run.app/#/)
