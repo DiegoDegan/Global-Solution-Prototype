@@ -1,4 +1,4 @@
-import logoImage from '../src/assets/logo.png'; // O caminho agora está correto após mover a pasta
+import logoImage from '../assets/logo.png'; // Ajustado para o novo caminho após mover a pasta
 
 const Logo = () => {
     return ( // Adicionado o "return" para renderizar o JSX

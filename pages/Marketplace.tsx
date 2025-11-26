@@ -1,11 +1,11 @@
 
 import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import PageBackground from '../../components/PageBackground';
-import { mockRewards } from '../../constants/mockData';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import PageBackground from '../components/PageBackground';
+import { mockRewards } from '../constants/mockData';
 import { Reward } from '../types';
-import { CoinIcon } from '../../components/icons';
+import { CoinIcon } from '../components/icons';
 
 const RewardCard: React.FC<{ reward: Reward }> = ({ reward }) => (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col group">

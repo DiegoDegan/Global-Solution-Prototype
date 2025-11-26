@@ -1,4 +1,3 @@
-
 import React, { useState, useContext, ReactNode } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import HomePage from './pages/HomePage';
@@ -9,7 +8,7 @@ import AIRecommendations from './pages/AIRecommendations';
 import Marketplace from './pages/Marketplace';
 import Forum from './pages/Forum';
 import { UserRole } from './types';
-import { UserRoleContext } from './contexts/UserRoleContext';
+import { UserRoleContext } from './UserRoleContext';
 import backgroundImage from './assets/background.png';
 
 // Componente para proteger rotas que exigem um tipo de usuário específico

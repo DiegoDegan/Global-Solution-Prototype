@@ -1,4 +1,3 @@
-
 export type UserRole = 'student' | 'creator' | 'recruiter';
 
 export interface Course {

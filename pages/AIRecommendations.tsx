@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import PageBackground from '../../components/PageBackground';
-import { professionsChartData, techTrendsChartData } from '../../constants/mockData';
-import { SparklesIcon } from '../../components/icons';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import PageBackground from '../components/PageBackground';
+import { professionsChartData, techTrendsChartData } from '../constants/mockData';
+import { SparklesIcon } from '../components/icons';
 
 const AIRecommendations: React.FC = () => {
     return (
